@@ -1,0 +1,25 @@
+$blue: #556dee;
+
+button {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  background: $blue;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;    
+  
+  &:hover {
+    background-color: lighten($blue, 10%);
+  }
+}
+
+
+
+
+
+button + button {
+  margin-left: 5px;
+}
