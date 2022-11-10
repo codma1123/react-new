@@ -1,0 +1,24 @@
+.navbar-box {
+  position: relative;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  height: 50px;
+  background-color: #696969;
+  align-items: center;  
+  justify-content: end;
+  width: 100%;
+}
+
+.a {
+  text-decoration: none;
+  color: white;
+}
+
+.text-link {
+  color: black;
+  text-decoration: inherit;
+}
+
